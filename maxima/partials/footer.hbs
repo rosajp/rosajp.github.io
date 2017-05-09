@@ -1,0 +1,33 @@
+<footer class='c-footer'>
+  <div class='o-grid'>
+    <div class='o-grid__col o-grid__col--full'>
+
+      <ul class='o-plain-list c-social-nav u-text-center'>
+        {{# if @blog.twitter}}
+          <li class='c-social-nav__item'>
+            <a href='https://twitter.com/thomcrowe}' target='_blank'>
+              <span class='c-social-nav__icon' data-icon='ei-sc-twitter' data-size='s'></span>
+            </a>
+          </li>
+        {{/if}}
+          <li class='c-social-nav__item'>
+            <a href='https://instagram.com/thomcrowe' target='_blank'>
+              <span class='c-social-nav__icon' data-icon='ei-sc-instagram' data-size='s'></span>
+            </a>
+          </li>
+        {{# if @blog.facebook}}
+          <li class='c-social-nav__item'>
+            <a href='https://facebook.com/thomcrowe' target='_blank'>
+              <span class='c-social-nav__icon' data-icon='ei-sc-facebook' data-size='s'></span>
+            </a>
+          </li>
+        {{/if}}
+      </ul>
+
+      <div class='u-text-center'>
+        <span class='u-font-small u-font-sans-serif'>&copy; {{ date format='YYYY' }} {{ @blog.title }} & Dn. Thom Crowe. <br> See something you'd like to share or republish? Just ask.</span>
+      </div>
+
+    </div>
+  </div>
+</footer>
