@@ -1,15 +1,15 @@
 /*----------------------------------------------------------------
 
-	Template Name: Ethant Hunt - HTML Template 
+	Template Name: Rosa Jiménez - HTML Template
 	Version: 1.0
 
 	-------------------------------------------------------------------------------*/
 
 /**************************************************************
-	
+
 	Main Js Activation
-	01. Preloader 
-	02. Menu 
+	01. Preloader
+	02. Menu
 	03. Pagepiling
 	04. Typed Text
 	05. Parallax
@@ -62,9 +62,6 @@
 				'Skills',
 				'Resume',
 				'Portfolio',
-				'Awards',
-				'Testimonials',
-				'Clients',
 				'Contact',
 			],
 			loopTop: false,
