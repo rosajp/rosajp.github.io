@@ -1,0 +1,35 @@
+{
+  "name": "rosajp.github.io",
+  "version": "1.0.0",
+  "description": "Snapshots of my work",
+  "main": "index.html",
+  "scripts": {
+    "lint:css": "stylelint '*/**/*.css' --fix",
+    "lint:js": "eslint '*/**/*.js' --fix",
+    "lint": "yarn lint:css && yarn lint:js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosajp/rosajp.github.io.git"
+  },
+  "author": "Rosa Jiménez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosajp/rosajp.github.io/issues"
+  },
+  "homepage": "https://github.com/rosajp/rosajp.github.io#readme",
+  "devDependencies": {
+    "eslint": "7.23.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "eslint-plugin-react": "7.23.1",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "prettier": "2.2.1"
+  },
+  "dependencies": {
+    "eslint-plugin-html": "6.1.2",
+    "stylelint": "13.12.0",
+    "stylelint-prettier": "1.2.0"
+  }
+}
