@@ -969,8 +969,25 @@ h3.slide-title { font-size: 2.5rem; }
 	transition: width 1s ease-in-out;
 	transition-delay: 1.5s; }
 
-.card3-1 { position: relative;
-	width: 77.89473684%; }
+.card3-1 {
+	position: relative;
+	width: 77.89473684%;
+}
+
+.is-dark .image-card.card3-1 {
+	background-color: hsla(192, 100%, 30%, 0.8);
+}
+.is-dark .image-card.card3-2 {
+	background-color: hsla(192, 69%, 34%, 0.8);
+}
+.is-dark .image-card.card3-3 {
+	background-color: hsla(192, 100%, 28%, 0.5);
+}
+.is-dark .image-card.card3-4 {
+	background-color: hsla(192, 69%, 20%, 0.8);
+
+
+}
 
 .card3-1 .image-card-body > .inside { width: 86.71171171%; }
 
@@ -1464,7 +1481,7 @@ h3.slide-title { font-size: 2.5rem; }
 .is-dark .progress-nav li.active,
 .is-dark .progress-nav li.active ~ li { background: var(--color-var-5); }
 
-.is-dark .image-card { background-color: #4d4d6c; }
+.is-dark .image-card { background-color: #1b6b80; }
 
 .is-dark .shape6 > .inside { background-image: url("../img/shape6-dark.png"); }
 
