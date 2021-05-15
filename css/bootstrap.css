@@ -31,7 +31,42 @@
 	--breakpoint-lg: 992px;
 	--breakpoint-xl: 1200px;
 	--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; }
+	--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+
+	/* default-colors */
+	/*
+	--color-var-1: #3c3c59;
+	--color-var-2: #f79784;
+	--color-var-3: #F4EAE6;
+	--color-var-4: #4297A0;
+	--color-var-5: #51516d;
+	--color-var-6: #32324c;
+	--color-var-7: #b4b4d5;
+	--color-var-8: #202044;
+	--color-var-9: #78acd9;
+	--color-var-10: #155769;
+	--color-var-11: #75a9d6;
+
+	*/
+
+	/* rosa-colors */
+
+	--color-var-1: #145b6d;
+	--color-var-2: #ff9884;
+	--color-var-3: #F4EAE6;
+	--color-var-4: #4297A0;
+	--color-var-5: #1d748a;
+	--color-var-6: #0d4250;
+	--color-var-7: #fff8ee;
+	--color-var-8: #0b3742;
+	--color-var-9: #018891;
+	--color-var-10: #155769;
+	--color-var-11: #ff9884;
+
+; }
+
+
 
 *,
 *::before,
@@ -3291,7 +3326,7 @@ a.badge-dark:focus, a.badge-dark.focus { outline: 0;
 	height: 1rem;
 	overflow: hidden;
 	font-size: 0.75rem;
-	background-color: #e9ecef;
+	background-color: var(--color-var-7);
 	border-radius: 0.25rem; }
 
 .progress-bar { display: -ms-flexbox;

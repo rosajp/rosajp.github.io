@@ -58,6 +58,7 @@
 			menu: '#menu, #menuMain',
 			anchors: [
 				'About',
+				'Skills',
 				'Contact',
 			],
 			loopTop: false,
